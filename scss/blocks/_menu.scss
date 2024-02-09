@@ -1,0 +1,56 @@
+.menu {
+  padding: 56px 0 165px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu__subtitle {
+  font-size: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem); // font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.menu__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu-choice {
+  margin-top: 50px;
+}
+
+.menu-choice__name {
+  display: inline-block;
+  font-size: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem); //font-size 30px
+  font-weight: 400;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  &:focus {
+    color: $accent;
+  }
+}
+
+.menu-name__item {
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+  margin-bottom: 24px;
+}
+
+.menu-name__text {
+  font-size: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem); //font-size 30px
+  font-weight: 400;
+  line-height: 37px;
+}
+.menu-name__line {
+  border-top: 1px solid $white;
+  width: 59px;
+}
+.menu-name__price {
+  font-size: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem); //font-size 30px
+  font-weight: 400;
+  line-height: 37px;
+}

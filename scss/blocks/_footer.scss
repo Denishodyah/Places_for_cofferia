@@ -1,0 +1,22 @@
+.footer {
+  background-color: $footer-bg;
+}
+.footer-box {
+  padding: 76px 0 113px 0;
+  text-align: center;
+}
+.footer-box--bottom {
+  margin-bottom: 32px;
+}
+.footer-box__tel {
+  font-size: clamp(2.188rem, 1.392rem + 3.98vw, 4.375rem); // font-size 70px
+  font-weight: 400;
+  line-height: 85px;
+  margin-bottom: 32px;
+}
+.footer-box__adress {
+  color: $accent;
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem); // font-size 24px
+  font-weight: 400;
+  line-height: 29px;
+}

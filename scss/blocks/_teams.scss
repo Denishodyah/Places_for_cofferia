@@ -1,0 +1,40 @@
+.teams {
+  padding: 54px 0 78px;
+}
+.teams__subtitle {
+  font-size: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem); // font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+}
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 99px;
+  @media screen and (max-width: 1300px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 60px;
+  }
+}
+.profession-card {
+  position: relative;
+}
+.profession-card__img {
+  display: flex;
+  max-width: 360px;
+}
+.profession-card__name {
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem); // font-size 24px
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.profession-card__text {
+  color: $accent;
+  font-size: clamp(0.75rem, 0.477rem + 1.36vw, 1.5rem); // font-size 24px
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+}
